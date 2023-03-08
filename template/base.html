@@ -37,8 +37,8 @@ http://www.templatemo.com/tm-475-holiday
                         <ul>
                             <li><a href="{% url 'my_weblog:home' %}" class="active">Home</a></li>
                             <li><a href="{% url 'my_weblog:about' %}">About</a></li>
-                            <li><a href="tours.html">Our Tours</a></li>
-                            <li><a href="contact.html">Contact</a></li>
+                            <li><a href="{% url 'my_weblog:tours' %}">Our Tours</a></li>
+                            <li><a href="{% url 'my_weblog:contact' %}">Contact</a></li>
                         </ul>
                     </nav>
                 </div>
